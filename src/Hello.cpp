@@ -5,7 +5,7 @@
 
 
 int main(int argc, char *argv[]) {
-  ros::init(argc, argv, "lecture2_move_turtle");
+  ros::init(argc, argv, "Hello");
 
   ros::NodeHandle nh;
   ros::Publisher cmd_vel_pub = nh.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 10);
